@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
+body{ margin: 0px; padding:0px; color: #000; font-family: 'Roboto', sans-serif; font-size: 12px; text-decoration: none; background-color: #ececec; /*text-align:center; position:relative;*/ }
+html, body { height:100%; }
+td{ color: #222; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; }
+a{ color:#1975e1; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; text-decoration: none; }
+a:hover{ color: #11539e; }
+form{ margin:0px; padding:0px; }
+div{ display: inline-block; }
+div{ display: block; overflow: hidden; width: auto; }
+
+/*******************************/
+
+label{ display:block; height:20px; clear:both; }
+label input{ float:left; }
+label span{ padding:3px; float:left; }
+
+/*******************************/
+
+#site{ width:980px; background-color:white; margin:0px auto; text-align:left; overflow:visible; }
+#wholesite{ margin-right:20px; margin-left:20px; overflow:visible; }
+#toprow{ background-color:#0055a4; position:relative; overflow:visible; }
+#toprow #toprow2{ overflow:visible; }
+
+/*******************************/
+
+#titlescript{ color:#FFF; padding:10px 0; text-align:center; }
+#titlescript strong{ font-size:22px; }
+
+/*******************************/
+
+#nethdr1{ background-color: #efefef; }
+
+/*******************************/
+
+#netnav{ float:left; width:500px; }
+#netnav a{ display:block; float:left; margin-right:1px; height:32px; }
+#netnav a span{ height:32px; display:block; float:left; margin:0px; cursor:pointer; }
+#netnav a b{ display:block; float:left; padding:8px 9px 10px 9px; color:#0055a4; cursor:pointer; }
+#netnav a:hover span{ text-decoration:underline; }
+#netnav a:hover{ background-color:#f5f5f5; background-image:none; }
+#netnav a.onnettab{ background-color:#e0e0e0; }
+#netnav a.onnettab span{ }
+#netnav a.onnettab span b{ color:black; }
+#netnav a.onnettab:hover span{ text-decoration:none; }
+
+/*******************************/
+
+#subfooter{ background-color:#ECECEC; padding:20px; padding-top:10px; color:#666; font-size:11px; }
+#subfooter a{ color:#222; font-size:11px; }
+#subfooter a:hover{ color:#222; text-decoration:underline; }
+#sfleft{ float:left; }
+#sfright{ float:right; }
+
+/*******************************/
+
+.greygrad{ color:#555; line-height:1.4; }
+
+/*******************************/
+
+.ttl{ height: 27px; background-color: #eee; overflow:visible; }
+.ttl2{ height: 27px; overflow:visible; }
+.ttl2 h3{ margin:0px; padding:0px; font-size:12px; padding-top:6px; padding-left:7px; float:left; }
+
+/*******************************/
+
+.alert{ clear:both; position:relative; margin-bottom:10px; }
+.alert .alerttop{ height: 4px; background-image:url('alert_yellow_top.gif'); background-position:top left; }
+.alert .alerttop2{ height: 4px; background-image:url('alert_yellow_top2.gif'); background-position:top right; background-repeat:no-repeat; }
+.alert .alertbottom{ height: 4px; background-image:url('alert_yellow_bottom.gif'); background-position:top left; }
+.alert .alertbottom2{ height: 4px; background-image:url('alert_yellow_bottom2.gif'); background-position:top right; background-repeat:no-repeat; }
+
+.alert .alertcontent{ background-image:url('alert_yellow_content.gif'); background-position:top left; background-repeat:no-repeat; background-color:#fffccb; }
+.alert .alertcontent2{ background-image:url('alert_yellow_content2.gif'); background-position:top right; background-repeat:no-repeat; padding:6px 35px 8px 55px; }
+.alert .alertcontent strong{ display:block; margin-bottom:2px; color:#592600; font-size:14px; }
+.alert .alertclose{ position:absolute; top:4px; right:4px; width: 17px; height:17px; background-image:url('alert_yellow_close.gif'); }
+.alert .alertclose:hover{ background-position:bottom left; }
+
+/*******************************/
+
+#setform input.setinp{ padding:5px; width:400px; }
+#setform textarea.setinp{ padding:5px; width:400px; height:40px; font-family:Verdana,Arial,Helvetica,sans-serif; font-size:12px; }
+#setform .setselect{ padding:5px; width:414px; }
+#setform .setparam{ text-align:right; padding:6px; color:#666; }
+
+
+
+
+/***************************************************/
+/***************************************************/
+
+#wrapper{ }
+
+.container-simple{ width:65%; margin: 0 auto; box-sizing: border-box; }
+
+.box-white{ border:1px solid #DFE4E6; -moz-border-radius:6px; -webkit-border-radius:6px; border-radius:6px; background-color:#FFF; padding:30px; }
+
+
+.bold{ font-weight:500; }
+.centered{ text-align:center; }
+
+.size20{ font-size:20px; }
+
+.form-block{ margin-bottom: 15px; box-sizing: border-box; }
+.form-block label{ display:inline-block; max-width: 100%; margin-bottom:1px; font-size:12px; }
+.form-block .form-control::-moz-placeholder{ color: #999; opacity: 1; } 
+.form-block .form-control{ border-radius: 0; display: block; width: 100%; height: 34px; padding: 6px 12px; font-size: 14px; color: #555; background-color: #fff; background-image: none; border: 1px solid #ccc; box-sizing: border-box; font-family: tahoma,verdana,arial,sans-serif; }
+
+.bnext{ padding:7px 20px; font-weight:500; cursor:pointer; }
+
+#space-top{ padding:10px 0 20px; text-align:center; }
+
+#header-box{}
+#header-box #hb-title{ position:relative; float:left; font-size:28px; font-weight:500; }
+#header-box #hb-steps{ position:relative; float:right; font-size:16px; font-weight:400; }
+
+.themsg-section{ font-size:14px; }
+
+#agree-license{ font-size:15px; line-height:12px; }
+
+#space-foot{ padding:20px 0 30px; }
+
+.subtitle_section{ font-size:16px; font-weight:400; margin:20px 0 15px; }
+
+
+/* Styles for Wide Screens - WIDE DESKTOP LAYOUT */
+@media only screen and (min-width: 1176px) {
+    .container-simple{ width:60%; }
+}
+
+/* Styles for Tablets - TABLET LAYOUT */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .container-simple{ width:80%; }
+}
+
+/* Styles for Mobiles - MOBILE LAYOUT (PORTRAIT/320PX) - Smartphone Vertical */
+@media only screen and (max-width: 767px) {
+    .container-simple{ width:90%; }
+
+    .box-white{ padding:15px; }
+
+    #header-box #hb-title{ font-size:20px; }
+    #header-box #hb-steps{ font-size:13px; }
+
+
+}
+
+/* Styles for Mobiles - WIDE MOBILE LAYOUT (LANDSCAPE/480PX) - Smartphone Horizontal */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    .container-simple{ width:80%; }
+
+    .box-white{ padding:20px; }    
+
+    #header-box #hb-title{ font-size:24px; }
+    #header-box #hb-steps{ font-size:14px; }
+
+    
+}
